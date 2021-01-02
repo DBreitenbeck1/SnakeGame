@@ -201,10 +201,10 @@ public class GamePanel extends JPanel implements ActionListener {
 		JButton button = new JButton("Go Again");
 		
 		button.addActionListener(e -> new GameFrame());
-		button.setBackground(Color.GREEN);
-		button.setForeground(Color.WHITE);
+//		button.setBackground(Color.GREEN);
+		button.setForeground(Color.RED);
 		button.setOpaque(true);
-		button.setBounds(200,100,100,50);
+		button.setBounds(275,100,100,50);
 		this.add(button);
 	
 	}
